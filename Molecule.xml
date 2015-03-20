@@ -30,7 +30,7 @@
                 </value>
                 <value name="B">
                   <block type="logic_operation" id="59" inline="true">
-                    <field name="OP">LOR</field>
+                    <field name="OP">LAND</field>
                     <value name="A">
                       <block type="sensor_object" id="14">
                         <field name="OBJECT">LEFTFRONT</field>
