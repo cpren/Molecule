@@ -22,7 +22,7 @@
           <block type="controls_if" id="45" inline="false">
             <value name="IF0">
               <block type="logic_compare" id="79" inline="true">
-                <field name="OP">LT</field>
+                <field name="OP">GT</field>
                 <value name="A">
                   <block type="sensor_object" id="28">
                     <field name="OBJECT">REAR</field>
