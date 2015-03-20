@@ -25,7 +25,7 @@
                 <field name="OP">GT</field>
                 <value name="A">
                   <block type="logic_operation" id="59" inline="true">
-                    <field name="OP">LAND</field>
+                    <field name="OP">LOR</field>
                     <value name="A">
                       <block type="sensor_object" id="14">
                         <field name="OBJECT">LEFTFRONT</field>
