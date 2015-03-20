@@ -22,8 +22,13 @@
           <block type="controls_if" id="45" inline="false">
             <value name="IF0">
               <block type="logic_compare" id="79" inline="true">
-                <field name="OP">GT</field>
+                <field name="OP">LT</field>
                 <value name="A">
+                  <block type="sensor_object" id="28">
+                    <field name="OBJECT">REAR</field>
+                  </block>
+                </value>
+                <value name="B">
                   <block type="logic_operation" id="59" inline="true">
                     <field name="OP">LOR</field>
                     <value name="A">
@@ -36,11 +41,6 @@
                         <field name="OBJECT">RIGHTFRONT</field>
                       </block>
                     </value>
-                  </block>
-                </value>
-                <value name="B">
-                  <block type="sensor_object" id="28">
-                    <field name="OBJECT">REAR</field>
                   </block>
                 </value>
               </block>
